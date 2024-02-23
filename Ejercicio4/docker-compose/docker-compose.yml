@@ -1,0 +1,6 @@
+version: '3'
+services:
+  cmatrix:
+    image: debian:latest
+    tty: true
+    command: sh -c "apt-get update && apt-get install -y cmatrix && cmatrix"
