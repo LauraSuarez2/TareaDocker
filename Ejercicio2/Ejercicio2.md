@@ -2,6 +2,10 @@
 
 
 
+> Realizado por: Laura Suárez Suárez
+
+
+
 **Utiliza una imagen de 'Portainer' para gestionar Docker.**
 
 **Documenta la aplicación, su puesta en funcionamiento y realiza capturas de varias operaciones, por ejemplo:**
@@ -75,3 +79,4 @@ $ docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docke
   ![image-20240222180844148](./Ejercicio2.assets/image-20240222180844148.png)
 
 ![image-20240222180929440](./Ejercicio2.assets/image-20240222180929440.png)
+
