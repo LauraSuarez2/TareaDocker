@@ -56,7 +56,11 @@
 
   **-Captura de pantalla y documento donde se entre a la consola del servidor web en modo texto y se compruebe que se ha creado la BD.**
 
+![image-20240223104734371](./Ejercicio3.assets/image-20240223104734371.png)
 
+![image-20240223104818988](./Ejercicio3.assets/image-20240223104818988.png)
+
+![image-20240223104930552](./Ejercicio3.assets/image-20240223104930552.png)
 
 **-Borrar los contenedores la red y los volúmenes utilizados.**
 
