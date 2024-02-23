@@ -30,14 +30,33 @@
 
      ![image-20240223101302793](./Ejercicio3.assets/image-20240223101302793.png)
 
-     ![image-20240223101345133](./Ejercicio3.assets/image-20240223101345133.png)
+     ![image-20240223102438717](./Ejercicio3.assets/image-20240223102438717.png)
 
      **Entregar los siguientes Captura de pantalla y documento s y los comandos empleados para resolver cada apartado:**
 
   **-Captura de pantalla y documento donde se vean los contenedores creados y en ejecución**.
+
+![image-20240223102554727](./Ejercicio3.assets/image-20240223102554727.png)
+
   **-Captura de pantalla y documento donde se vea el acceso a la BD a través de la interfaz web de Adminer.**
+
+![image-20240223101302793](./Ejercicio3.assets/image-20240223101302793.png)
+
+![image-20240223103012292](./Ejercicio3.assets/image-20240223103012292.png)
+
   **-Captura de pantalla y documento donde se vea la creación de una BD con la interfaz web Adminer.**
+
+![image-20240223103231804](./Ejercicio3.assets/image-20240223103231804.png)
+
+![image-20240223103249058](./Ejercicio3.assets/image-20240223103249058.png)
+
+![image-20240223103458365](./Ejercicio3.assets/image-20240223103458365.png)
+
+![image-20240223103533244](./Ejercicio3.assets/image-20240223103533244.png)
+
   **-Captura de pantalla y documento donde se entre a la consola del servidor web en modo texto y se compruebe que se ha creado la BD.**
+
+
 
 **-Borrar los contenedores la red y los volúmenes utilizados.**
 
