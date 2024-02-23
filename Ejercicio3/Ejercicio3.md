@@ -2,20 +2,44 @@
 
 
 
-1. **Crea una red bridge redbd**
+> Realizado por: Laura Suárez Suárez
 
-2. **Crea un contenedor con una imagen de mariaDB que estará en la red redbd . Este contenedor se**
-  **ejecutará en segundo plano, y será accesible a través del puerto 3306. (Es necesario definir la**
-  **contraseña del usuario root y un volumen de datos persistente)**.
+
+
+1. **Crea una red bridge redbd**.
+
+     ![image-20240223091817235](./Ejercicio3.assets/image-20240223091817235.png)
+
+2. **Crea un contenedor con una imagen de mariaDB que estará en la red redbd . Este contenedor se ejecutará en segundo plano, y será accesible a través del puerto 3306. (Es necesario definir la contraseña del usuario root y un volumen de datos persistente)**.
+
+     ```bash
+     $ docker run -d --name mariadb-container -e MYSQL_ROOT_PASSWORD=1234 -p 3306:3306 --network redbd -v mariadb-data:/var/lib/mysql mariadb
+     ```
+
+     ![image-20240223093634125](./Ejercicio3.assets/image-20240223093634125.png)
 
 3. **Crear un contenedor con Adminer que se pueda conectar al contenedor de la BD**.
 
-4. **Comprobar que el contenedor Adminer puede conectar con el contenedor mysql abriendo un**
-  **navegador web y accediendo a la URL: http://localhost:8080**.
-  **Entregar los siguientes Captura de pantalla y documento s y los comandos empleados para resolver cada apartado:**
+     ```bash
+     $ docker run -d --name adminer -p 8080:8080 --network redbd adminer
+     ```
+
+     ![image-20240223094352109](./Ejercicio3.assets/image-20240223094352109.png)
+
+4. **Comprobar que el contenedor Adminer puede conectar con el contenedor mysql abriendo un navegador web y accediendo a la URL: http://localhost:8080. **
+
+     ![image-20240223101302793](./Ejercicio3.assets/image-20240223101302793.png)
+
+     ![image-20240223101345133](./Ejercicio3.assets/image-20240223101345133.png)
+
+     **Entregar los siguientes Captura de pantalla y documento s y los comandos empleados para resolver cada apartado:**
 
   **-Captura de pantalla y documento donde se vean los contenedores creados y en ejecución**.
   **-Captura de pantalla y documento donde se vea el acceso a la BD a través de la interfaz web de Adminer.**
   **-Captura de pantalla y documento donde se vea la creación de una BD con la interfaz web Adminer.**
   **-Captura de pantalla y documento donde se entre a la consola del servidor web en modo texto y se compruebe que se ha creado la BD.**
-  **-Borrar los contenedores la red y los volúmenes utilizados**
+
+**-Borrar los contenedores la red y los volúmenes utilizados.**
+
+
+
