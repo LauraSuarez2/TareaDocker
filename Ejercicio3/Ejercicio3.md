@@ -32,7 +32,7 @@
 
      ![image-20240223102438717](./Ejercicio3.assets/image-20240223102438717.png)
 
-     **Entregar los siguientes Captura de pantalla y documento s y los comandos empleados para resolver cada apartado:**
+     **Entregar los siguientes Captura de pantalla y documentos y los comandos empleados para resolver cada apartado:**
 
   **-Captura de pantalla y documento donde se vean los contenedores creados y en ejecución**.
 
@@ -62,7 +62,24 @@
 
 ![image-20240223104930552](./Ejercicio3.assets/image-20240223104930552.png)
 
-**-Borrar los contenedores la red y los volúmenes utilizados.**
+**-Borrar los contenedores, la red y los volúmenes utilizados.**
 
+Borramos los contenedores:
 
+![image-20240226085005341](./Ejercicio3.assets/image-20240226085005341.png)
 
+![image-20240226085046976](./Ejercicio3.assets/image-20240226085046976.png)
+
+![image-20240226085302021](./Ejercicio3.assets/image-20240226085302021.png)
+
+Borramos la red:
+
+![image-20240226085201970](./Ejercicio3.assets/image-20240226085201970.png)
+
+![image-20240226085317384](./Ejercicio3.assets/image-20240226085317384.png)
+
+Y por último borramos el volumen:
+
+![image-20240226085227655](./Ejercicio3.assets/image-20240226085227655.png)
+
+![image-20240226085333836](./Ejercicio3.assets/image-20240226085333836.png)
