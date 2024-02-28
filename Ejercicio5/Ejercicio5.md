@@ -42,7 +42,9 @@
 
   ![image-20240228125808169](./Ejercicio5.assets/image-20240228125808169.png)
 
-  ![image-20240228125524327](./Ejercicio5.assets/image-20240228125524327.png)
+  ![image-20240228183836843](./Ejercicio5.assets/image-20240228183836843.png)
+
+  ![image-20240228183233339](./Ejercicio5.assets/image-20240228183233339.png)
 
   ```bash
   $ docker cp /home/cliente-l/Documentos/Ejercicios/TareaDocker/Ejercicio5/mes.php web:/var/www/html/mes.php
@@ -54,7 +56,23 @@
 
 - **Borrar el contenedor.**
 
+  ![image-20240228184042482](./Ejercicio5.assets/image-20240228184042482.png)
+
+  ![image-20240228184107128](./Ejercicio5.assets/image-20240228184107128.png)
+
+  ![image-20240228184128861](./Ejercicio5.assets/image-20240228184128861.png)
+
 - **Automatizar estas operaciones creando un fichero Dockerfile.**
+
+  -Creamos el fichero y su contenido:
+
+  ![image-20240228191338894](./Ejercicio5.assets/image-20240228191338894.png)
+
+  ```bash
+  $ touch Dockerfile
+  ```
+
+  ![image-20240228191614903](./Ejercicio5.assets/image-20240228191614903.png)
 
 - **Subir la imagen a la cuenta de Docker Hub.**
 
