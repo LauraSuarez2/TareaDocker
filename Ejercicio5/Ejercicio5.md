@@ -99,7 +99,9 @@
   $ docker push lauras2/webdaw:v1
   ```
 
-  
+  Y ya estaría subida:
+
+  ![image-20240228195241421](./Ejercicio5.assets/image-20240228195241421.png)
 
 **Deberás entregar los siguientes capturas de pantalla y los comandos empleados para resolver cada**
 **apartado:**
