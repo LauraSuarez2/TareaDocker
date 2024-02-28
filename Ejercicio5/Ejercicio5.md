@@ -76,6 +76,31 @@
 
 - **Subir la imagen a la cuenta de Docker Hub.**
 
+  -Creamos una cuenta en Docker Hub:
+
+  ![image-20240228192840065](./Ejercicio5.assets/image-20240228192840065.png)
+
+  -Creamos la imagen:
+
+  ![image-20240228194029099](./Ejercicio5.assets/image-20240228194029099.png)
+
+  ```bash
+  $ docker build -t lauras2/webdaw:v1 /home/cliente-l/Documentos/Ejercicios/TareaDocker/Ejercicio5
+  ```
+
+  -Subimos la imagen a Docker Hub:
+
+  ![image-20240228194258637](./Ejercicio5.assets/image-20240228194258637.png)
+
+  ![image-20240228194437019](./Ejercicio5.assets/image-20240228194437019.png)
+
+  ```bash
+  $ docker login
+  $ docker push lauras2/webdaw:v1
+  ```
+
+  
+
 **Deberás entregar los siguientes capturas de pantalla y los comandos empleados para resolver cada**
 **apartado:**
 
