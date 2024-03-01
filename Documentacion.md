@@ -1,10 +1,30 @@
 # Documentación Tarea Docker
 
+
+
 [TOC]
 
 > Realizado por: Laura Suárez Suárez
 >
 > Y por: Alberto Vicente Díaz
+
+
+
+
+
+**-Este documento presenta nuestra solución para la Tarea Docker, realizada por Laura Suárez Suárez y Alberto Vicente Díaz. Incluye detalles sobre la planificación, ejecución y conclusiones de los cinco ejercicios asignados, con el objetivo de fortalecer nuestras habilidades en Docker y fomentar una colaboración efectiva entre los miembros del equipo.**
+
+
+
+## Enlace al repositorio
+
+https://github.com/LauraSuarez2/TareaDocker.git
+
+
+
+## Asignación de Tareas
+
+Durante la planificación de la tarea, nuestro equipo se esforzó por asignar las tareas de manera equitativa y eficiente. Consideramos varios factores, como la dificultad percibida de cada ejercicio, la experiencia previa de cada miembro y sus preferencias individuales. Este enfoque nos permitió aprovechar las fortalezas individuales de cada miembro del equipo y garantizar una distribución equitativa de la carga de trabajo. Además, se asignó un ejercicio adicional a aquellos miembros que se sentían más cómodos con ciertos conceptos, con el objetivo de aprovechar al máximo los conocimientos del equipo.
 
 
 
@@ -43,4 +63,4 @@ Durante la realización de la tarea, nuestro equipo experimentó algún desafío
 
 - En futuros proyectos, planeamos mejorar nuestra planificación y distribución de tareas desde el principio.
 
-Este proyecto fue una buena experiencia que fortaleció nuestras habilidades en Docker y mejoró nuestra capacidad para trabajar de manera efectiva en equipo.
+-Este proyecto fue una buena experiencia que fortaleció nuestras habilidades en Docker y mejoró nuestra capacidad para trabajar de manera efectiva en equipo.
