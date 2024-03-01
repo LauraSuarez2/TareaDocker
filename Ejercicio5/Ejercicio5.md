@@ -107,8 +107,55 @@
 **apartado:**
 
 1. **Creación inicial del contenedor - documenta los pasos hasta el borrado del mismo.**
+
+   ```bash
+   $ docker run -d -p 8000:80 --name web php:7.4-apache
+   ```
+
+   ![image-20240226100052412](./Ejercicio5.assets/image-20240226100052412.png)
+
+   ![image-20240228184042482](./Ejercicio5.assets/image-20240228184042482.png)
+
 2. **Bloque de código con el Dockerfile.**
+
+   ```bash
+   Dockerfile:
+   
+   FROM php:7.4-apache
+   
+   COPY index.html /var/www/html/index.html
+   COPY estilos.css /var/www/html/estilos.css
+   COPY mes.php /var/www/html/mes.php
+   ```
+
+   ![image-20240228191614903](./Ejercicio5.assets/image-20240228191614903.png)
+
 3. **Captura de pantalla y documento donde se vea el comando que crea la nueva imagen.**
+
+   ![image-20240228194029099](./Ejercicio5.assets/image-20240228194029099.png)
+
+   ```bash
+   $ docker build -t lauras2/webdaw:v1 /home/cliente-l/Documentos/Ejercicios/TareaDocker/Ejercicio5
+   ```
+
 4. **Captura de pantalla y documento donde se vea la imagen subida a tu cuenta de Docker Hub.**
+
+   ![image-20240228195241421](./Ejercicio5.assets/image-20240228195241421.png)
+
 5. **Captura de pantalla y documento donde se vea la bajada de la imagen - por parte de otra persona del grupo - y la creación de un contenedor.**
+
+   ![image-20240301094050244](./Ejercicio5.assets/image-20240301094050244.png)
+
+   ```bash
+   $ docker pull lauras2/webdaw:v1
+   ```
+
+   ![image-20240301094312094](./Ejercicio5.assets/image-20240301094312094.png)
+
+   ```bash
+   $ docker run -d -p 8000:80 --name web lauras2/webdaw:v1
+   ```
+
 6. **Captura de pantalla y documento donde se ve el acceso al navegador con el sitio servido.**
+
+![image-20240301094603988](./Ejercicio5.assets/image-20240301094603988.png)
